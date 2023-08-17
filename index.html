@@ -3,9 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Prueba1</title>
 </head>
+
 <body>
     <h1>juan</h1>
+    <table border='1'>
+        <!--Cabecera de la tabla-->
+        <thead>
+            <tr>
+                <th>Fecha</th>
+                <th># Horas</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <!--Cuerpo de la tabla-->
+        <tbody>
+            <!--Fila-->
+            <tr>
+                <!--Columna-->
+                <td>13-12-2012</td>
+                <td>2</td>
+                <td>$2.000</td>
+            </tr>
+            <tr>
+                <td>12-12-2012</td>
+                <td>1</td>
+                <td>$1.000</td>
+            </tr>
+            <tr>
+                <!--el atributo rowspan sirve para unir o colapsar celdas por filas-->
+                <td rowspan='2'>15-12-2012</td>
+                <td>2</td>
+                <td>$2.000</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>$5.000</td>
+            </tr>
+        </tbody>
+        <!--Footer o pie de la tabla-->
+        <tfoot>
+            <tr>
+                <!--el atributo colspan sirve para unir o colapsar celdas por columnas-->
+                <th colspan='2'>Total</th>
+                <th>$13.000</th>
+            </tr>
+        </tfoot>
+    </table>
+
 </body>
+
 </html>
